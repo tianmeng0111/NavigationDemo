@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NavigationDemo</string>
+    <string name="main">main</string>
+    <string name="common">common</string>
+    <string name="my">my</string>
+</resources>

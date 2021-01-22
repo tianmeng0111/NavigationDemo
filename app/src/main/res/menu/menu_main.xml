@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_go_drawer_navigation_activity"
+        android:title="go drawer activity">
+    </item>
+    <item android:id="@+id/menu_go_jump_activity"
+        android:title="go jump activity">
+    </item>
+</menu>

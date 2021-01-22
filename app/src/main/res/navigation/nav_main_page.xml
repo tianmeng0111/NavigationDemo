@@ -1,0 +1,29 @@
+<navigation android:id="@+id/nav"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@+id/fragment_main">
+
+    <!-- startDestination 首次加载第一个页面，必填 -->
+
+    <fixFragment
+        android:id="@+id/fragment_main"
+        android:label="MainFragment"
+        android:name="com.tm.demo.navigationdemo.fragment.MainFragment">
+
+    </fixFragment>
+
+    <fixFragment
+        android:id="@+id/fragment_message"
+        android:label="MessageFragment"
+        android:name="com.tm.demo.navigationdemo.fragment.MessageFragment">
+
+    </fixFragment>
+
+    <fixFragment
+        android:id="@+id/fragment_my"
+        android:label="MyFragment"
+        android:name="com.tm.demo.navigationdemo.fragment.MyFragment">
+
+    </fixFragment>
+
+</navigation>

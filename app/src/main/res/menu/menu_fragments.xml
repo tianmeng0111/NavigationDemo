@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    menu里id要和navigation的id一致
+    -->
+    <item
+        android:id="@+id/fragment_main"
+        android:icon="@drawable/selector_main"
+        android:title="@string/main" />
+    <item
+        android:id="@+id/fragment_message"
+        android:icon="@drawable/selector_common"
+        android:title="@string/common" />
+    <item
+        android:id="@+id/fragment_my"
+        android:icon="@drawable/selector_my"
+        android:title="@string/my" />
+</menu>
